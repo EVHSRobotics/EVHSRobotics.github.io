@@ -89,17 +89,27 @@
 	      'main': 'bloghome',
 	      'nav': 'navbar',
 	      'footer': 'footer'
-	    }, as: 'bloghome' }, { path: '/blog/:pageid/:id', components: {
+	    }, as: 'bloghome' }, { path: '/prototypes', components: {
 	      'header': 'minheader',
-	      'main': 'blog',
+	      'main': 'prototypes',
 	      'nav': 'navbar',
 	      'footer': 'footer'
-	    }, as: 'blog' }, { path: '/blogeditor', components: {
+	    }, as: 'prototypes' }, { path: '/kronos', components: {
 	      'header': 'minheader',
-	      'main': 'blogeditor',
+	      'main': 'kronos',
 	      'nav': 'navbar',
 	      'footer': 'footer'
-	    }, as: 'blogeditor' }, { path: '/', redirectTo: '/home/landing' }]);
+	    }, as: 'kronos' }, { path: '/artemis', components: {
+			'header': 'minheader',
+			'main': 'artemis',
+			'nav': 'navbar',
+			'footer': 'footer'
+		}, as: 'artemis' }, { path: '/athena', components: {
+			'header': 'minheader',
+			'main': 'athena',
+			'nav': 'navbar',
+			'footer': 'footer'
+		}, as: 'athena' },{ path: '/', redirectTo: '/home/landing' }]);
 	}
 	// app.config(['$locationProvider', function($locationProvider) {
 	//        $locationProvider.html5Mode(true);
@@ -22104,13 +22114,13 @@
 	    title: 'PROTOTYPES',
 	    pageid: 'p'
 	  }, {
-	    title: 'RESISTORS',
+	    title: 'KRONOS',
 	    pageid: 'r'
 	  }, {
-	    title: 'ATHENA',
+	    title: 'ARTEMIS',
 	    pageid: 'a'
 	  }, {
-	    title: 'OMEGA',
+	    title: 'ATHENA',
 	    pageid: 'o'
 	  }, {
 	    title: 'GOATS',

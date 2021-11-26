@@ -9,6 +9,9 @@ import '../components/minheader/minheader';
 import '../components/blog/blog';
 import '../components/blogeditor/blogeditor';
 import '../components/bloghome/bloghome';
+import '../components/prototypes/prototypes';
+import '../components/kronos/kronos';
+import '../components/artemis/artemis';
 
 class AppController {
   constructor($router){
@@ -19,24 +22,36 @@ class AppController {
         'nav'   : 'navbar',
         'footer': 'footer'
       }, as: 'home'},
-      {path: '/blog', components: {
+      {path: '/bloghome', components: {
         'header': 'minheader',
         'main'  : 'bloghome',
         'nav'   : 'navbar',
         'footer': 'footer'
       }, as: 'bloghome'},
-      {path: '/blog/:pageid/:id', components: {
+      {path: '/prototypes', components: {
         'header': 'minheader',
-        'main'  : 'blog',
+        'main'  : 'prototypes',
         'nav'   : 'navbar',
         'footer': 'footer'
-      }, as: 'blog'},
-      {path: '/blogeditor', components: {
+      }, as: 'prototypes'},
+      {path: '/kronos', components: {
         'header': 'minheader',
-        'main'  : 'blogeditor',
+        'main'  : 'kronos',
         'nav'   : 'navbar',
         'footer': 'footer'
-      }, as: 'blogeditor'},
+      }, as: 'kronos'},
+      {path: '/artemis', components: {
+        'header': 'minheader',
+        'main'  : 'artemis',
+        'nav'   : 'navbar',
+        'footer': 'footer'
+      }, as: 'artemis'},
+      {path: '/athena', components: {
+        'header': 'minheader',
+        'main'  : 'athena',
+        'nav'   : 'navbar',
+        'footer': 'footer'
+      }, as: 'athena'},
       {path: '/', redirectTo: '/home/landing'}
     ]);
   }
