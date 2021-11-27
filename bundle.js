@@ -90,22 +90,22 @@
 	      'nav': 'navbar',
 	      'footer': 'footer'
 	    }, as: 'bloghome' }, { path: '/prototypes', components: {
-	      'header': 'minheader',
+	      'header': 'phead',
 	      'main': 'prototypes',
 	      'nav': 'navbar',
 	      'footer': 'footer'
 	    }, as: 'prototypes' }, { path: '/kronos', components: {
-	      'header': 'minheader',
+	      'header': 'khead',
 	      'main': 'kronos',
 	      'nav': 'navbar',
 	      'footer': 'footer'
 	    }, as: 'kronos' }, { path: '/artemis', components: {
-			'header': 'minheader',
+			'header': 'ahead',
 			'main': 'artemis',
 			'nav': 'navbar',
 			'footer': 'footer'
 		}, as: 'artemis' }, { path: '/athena', components: {
-			'header': 'minheader',
+			'header': 'athead',
 			'main': 'athena',
 			'nav': 'navbar',
 			'footer': 'footer'
@@ -21885,6 +21885,56 @@
 
 	_moduleJs.app.controller('HomeController', ['$routeParams', HomeController]);
 
+
+		var ArtemisController = (function () {
+	  function ArtemisController($routeParams) {
+	    _classCallCheck(this, ArtemisController);
+
+	    this.routeParams = $routeParams;
+	    this.map = {
+	      center: {
+	        latitude: 37.323098,
+	        longitude: -121.778666
+	      },
+	      zoom: 14,
+	      options: {
+	        scrollwheel: false
+	      }
+	    };
+	    this.marker = {
+	      idKey: 128,
+	      coords: {
+	        latitude: 37.323098,
+	        longitude: -121.778666
+	      },
+	      options: {
+	        draggable: false
+	      }
+	    };
+	  }
+
+	  _createClass(HomeController, [{
+	    key: 'activate',
+	    value: function activate() {
+	      var id = this.routeParams.section;
+	      if (id == 'landing') {
+	        $("html, body").animate({ scrollTop: 0 }, 125);
+	      } else {
+	        $("html, body").animate({ scrollTop: $('#homeSection-' + id).offset().top - NAVHEIGHT }, 125, function () {
+	          $(window).scroll();
+	        });
+	      }
+	      $('.mdl-data-table--selectable').each(function (index, element) {
+	        componentHandler.upgradeElement(element);
+	      });
+	    }
+	  }]);
+
+	  return ArtemisController;
+	})();
+
+	_moduleJs.app.controller('ArtemisController', ['$routeParams', ArtemisController]);
+
 /***/ },
 /* 12 */
 /***/ function(module, exports, __webpack_require__) {
@@ -21922,6 +21972,30 @@
 	})();
 
 	_moduleJs.app.controller('NavbarController', [NavbarController]);
+
+	var Anavcontroller = (function () {
+		function Anavcontroller() {
+		  _classCallCheck(this, Anavcontroller);
+		}
+  
+		_createClass(Anavcontroller, [{
+		  key: 'activate',
+		  value: function activate() {
+			$(window).scroll(function () {
+			  if ($(window).scrollTop() < NAVHEIGHT) {
+				$('.main-navbar').addClass('main-navbar-fill-transparent').removeClass('main-navbar-fill-regular');
+			  } else {
+				$('.main-navbar').addClass('main-navbar-fill-regular').removeClass('main-navbar-fill-transparent');
+			  }
+			});
+			$(window).scroll();
+		  }
+		}]);
+  
+		return Anavcontroller;
+	  })();
+  
+	  _moduleJs.app.controller('Anavcontroller', [Anavcontroller]);
 
 /***/ },
 /* 13 */

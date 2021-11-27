@@ -12,6 +12,11 @@ import '../components/bloghome/bloghome';
 import '../components/prototypes/prototypes';
 import '../components/kronos/kronos';
 import '../components/artemis/artemis';
+import '../components/ahead/ahead';
+import '../components/khead/khead';
+import '../components/phead/phead';
+import '../components/athead/athead';
+import '../components/anav/anav';
 
 class AppController {
   constructor($router){
@@ -29,25 +34,25 @@ class AppController {
         'footer': 'footer'
       }, as: 'bloghome'},
       {path: '/prototypes', components: {
-        'header': 'minheader',
+        'header': 'phead',
         'main'  : 'prototypes',
         'nav'   : 'navbar',
         'footer': 'footer'
       }, as: 'prototypes'},
       {path: '/kronos', components: {
-        'header': 'minheader',
+        'header': 'khead',
         'main'  : 'kronos',
         'nav'   : 'navbar',
         'footer': 'footer'
       }, as: 'kronos'},
       {path: '/artemis', components: {
-        'header': 'minheader',
+        'header': 'ahead',
         'main'  : 'artemis',
         'nav'   : 'navbar',
         'footer': 'footer'
       }, as: 'artemis'},
       {path: '/athena', components: {
-        'header': 'minheader',
+        'header': 'athead',
         'main'  : 'athena',
         'nav'   : 'navbar',
         'footer': 'footer'
