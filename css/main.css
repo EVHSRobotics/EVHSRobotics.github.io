@@ -13,6 +13,14 @@
 	min-height: -webkit-min-content;
 	min-height: min-content;
 }
+.ahead-header-backgroud {
+  background: url(../assets/BlogBanners/aban.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
 .athead-header-backgroud {
   background: url(../assets/BlogBanners/atban.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
