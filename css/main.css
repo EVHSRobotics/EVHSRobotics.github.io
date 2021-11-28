@@ -13,6 +13,30 @@
 	min-height: -webkit-min-content;
 	min-height: min-content;
 }
+.athead-header-backgroud {
+  background: url(../assets/BlogBanners/atban.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+.khead-header-backgroud {
+  background: url(../assets/BlogBanners/kban.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+.phead-header-backgroud {
+  background: url(../assets/BlogBanners/pban.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
 .main-header-backgroud {
   background: url(../assets/Banner2021.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
