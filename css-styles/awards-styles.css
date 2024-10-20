@@ -1,0 +1,40 @@
+.engineering-inspiration-img{
+    width:30vw;
+    border-radius: 15px;
+    margin:auto;
+    margin-bottom:2vh;
+    margin-top: 2vh;
+    border: 1px solid grey;
+}
+
+.worlds-img{
+    width:20vw;
+    border-radius:15px;
+    margin:auto;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    border: 1px solid grey;
+}
+
+.other-img{
+    width:20vw;
+    border-radius:15px;
+    margin:auto;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    border: 1px solid grey;
+}
+
+.container-md{
+    width:85vw;
+    margin:auto;
+    margin-bottom:5vh;
+}
+
+h2{
+    font-size:3rem;
+}
+
+h3{
+    font-size:2rem;
+}

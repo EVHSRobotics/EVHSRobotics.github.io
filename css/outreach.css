@@ -1,0 +1,190 @@
+body, html {
+    background-color: #151719 !important;
+}
+
+.outreach-title-container {
+    background-color: #151719;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 5%;
+    margin-bottom: 10%;
+    height: 70vh;
+}
+
+.text-container {
+    text-align: left;
+    padding-right: 5%;
+}
+
+.team-subtext {
+    color: #9ca9b3;
+    font-size: 110%;
+}
+
+.outreach-heading {
+    font-size: 700%;
+    color: white;
+}
+
+
+.team-header-container {
+    align-items: center;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.founded-teams-header {
+    color: white;
+    font-size: 300%;
+    padding-bottom: 1%;
+}
+
+.founded-teams-subtext {
+    font-size: 110%;
+    color: #9ca9b3;
+}
+
+.team-info-container {
+    padding-left: 5%;
+}
+
+.founded-teams-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    padding-right: 10%;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: auto 1fr; /* First column auto-sized for logo, second column takes up remaining space */
+    grid-gap: 20px; /* Adjust as needed */
+    align-items: center;
+}
+
+.team-logo {
+    height: 50vh;
+    width: 50vh;
+}
+
+
+
+.outreach-img {
+    height: 40vh;
+    width: 30vw;
+    object-fit: cover;
+    overflow: hidden;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.left-container .outreach-description {
+    justify-self: end;
+}
+
+.right-container .outreach-description {
+    justify-self: start;
+}
+
+.outreach-description {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.outreach-item-container-left {
+    display: grid;
+    margin-top: 5%;
+}
+
+.outreach-item-container-right {
+    display: grid;
+    margin-top: 5%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+
+.outreach-description {
+    color: #333;
+}
+
+.outreach-title {
+    color: #008B8B;
+    font-size: 250% !important;
+}
+
+.outreach-text {
+    color: #9ca9b3;
+    font-size: 150% !important;
+}
+
+.outreach-conclusion-container {
+    text-align: center;
+    margin: 10% auto;
+    width: 80vw;
+    padding-right: 7%;
+    padding-left: 7%;
+}
+
+.outeach-conclusion {
+    font-size: 150%;
+    color: white;
+    line-height: 1.5;
+}
+
+.hr-blurry {
+    border: none;
+    height: 1px;
+    background-color: white;
+    margin: 20px auto;
+    width: 50vw;
+}
+
+/*----------------------------------------------------*/
+.counters-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.counter {
+    font-weight: bold;
+    color: white;
+    font-size: 300%;
+    animation: count 2s ease-in-out forwards;
+}
+
+
+.caption {
+    color: white;
+    text-align: center;
+    font-size: 120%;
+}
+
+
+@keyframes count {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

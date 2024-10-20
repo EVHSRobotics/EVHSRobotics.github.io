@@ -1,0 +1,48 @@
+body {
+    background-color: white;
+}
+
+.contact-us-header {
+    background-image: url('Media/collage-title.png');
+    color: white;
+    text-align: center;
+    height: 40vh;
+  }
+
+
+  .contact-us-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 900%;
+    font-weight: bolder;
+}
+
+.contact-form-container {
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 5%;
+    overflow-y: auto;
+}
+
+
+
+
+  .contact-navbar {
+    background-color: transparent;
+  }
+
+  .contact-us-header {
+    background-image: url('../Media/collage-title.png');
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+  }
+
+
+  .logo-on-contact-us {
+    width: 4%;
+    position: absolute;
+    top: 5%;
+    left: 1%;
+}

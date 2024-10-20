@@ -1,0 +1,45 @@
+.main-mentor{
+    text-align: center;
+    margin:auto;
+    width:65vw;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    
+}
+
+.main-mentor-heading{
+    text-align: center;
+}
+
+.main-mentor-picture{
+    border-radius: 50%;
+    border:1px solid grey;
+    margin-bottom:1vh;
+    width:15vw;
+}
+
+.main-mentor-text{
+    width:50vw;
+    text-align: justify;
+    margin: auto;
+    margin-bottom:2vh;
+}
+
+.other-mentor-pic{
+    width:20%;
+    border-radius: 50%;
+    border:1px solid grey;
+}
+
+.other-mentor{
+    text-align: center;
+}
+
+.other-mentor-text{
+    margin:1vh; 
+}
+
+.mentor-text{
+    text-align:center;
+    font-size: larger;
+}

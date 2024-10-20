@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+}
+
+.title-container {
+    background-image: url(../Media/collage-title.png);
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Required for absolute positioning of the pseudo-element */
+}
+
+.title-container::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%; /* Adjust as needed */
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+}
+
+.title-header {
+    font-size: 900%;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.subtext {
+    color: white;
+    font-size: 125%; /* Adjust as needed */
+    font-weight: 400; /* Adjust as needed */
+    line-height: 1.5; /* Adjust as needed */
+    max-width: 80%; /* Adjust as needed */
+    margin-top: 20px; /* Adjust as needed */
+}
+
+
+
+
+.officer-container {
+    margin-top: 3%;
+}
+
+.officer-card {
+    margin-bottom: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: grid;
+    grid-template-columns: auto 1fr; /* Picture on the left, text on the right */
+    gap: 20px; /* Add some space between the picture and the text */
+    box-shadow: 0 4px 6px grey; /* Box shadow with horizontal offset 0, vertical offset 4px, blur radius 6px, and color with 0.1 opacity */
+}
+
+
+.officer-picture {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 2%;
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    transition: transform 0.3s ease; /* Add smooth transition */
+}
+
+.officer-picture:hover {
+    transform: scale(1.05); /* Increase size by 1.05 on hover */
+}
+
+
+
+.position-text {
+    font-size: small;
+    font-weight: bold;
+    color: #008B8B;
+    margin-bottom: 5px; /* Added margin to separate from officer-name */
+}
+
+.officer-name {
+    margin: 0; /* Reset margin */
+}
+
+.officer-description {
+    margin: 0; /* Reset margin */
+    padding-top: 2%;
+}
+
+.position-text,
+.officer-name,
+.officer-description {
+    text-align: left; /* Align text to the left */
+    margin: 0; /* Reset margin */
+}
+
+.mentor-container {
+    margin-top: 3%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.lead-container {
+    margin-top: 3%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.mentor-card {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+    box-shadow: 0 4px 6px #008B8B;
+    margin-bottom: 3%;
+}
+
+.mentor-picture {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 2%;
+    width: 60vh;
+    height: 60vh;
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Add smooth transition */
+}
+
+.mentor-picture:hover {
+    transform: scale(1.035);
+    -webkit-transform: scale(1.035);
+    -moz-transform: scale(1.035);
+    -ms-transform: scale(1.035);
+    -o-transform: scale(1.035);
+}
+
+.awards-heading-container {
+    margin-top: 5%;
+    display: grid;
+    justify-items: center;
+}
+
+.title-divider {
+    border-top: 2px solid  #25282c; /* Black color */
+    width: 30vw; /* Adjust width as necessary */
+}
+
+
+
+.awards-header {
+    padding-top: 2%;
+    font-size: 300%;
+    font-weight: bold;
+    color: #25282c; /* White color */
+}
+
+.awards-description {
+    color: #25282c;
+    padding-top: 1%;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+}
+
+.award-gallery-container {
+    text-align: center;
+  }
+
+.award-img {
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+    height: 30vh;
+    width: 30vh;
+}
+
+.timeline-container {
+    margin-left: 5%;
+    margin-top: 3%;
+    padding-right: 20%;
+}
+
+.history-heading-container {
+    margin-top: 5%;
+    display: grid;
+    justify-items: center;
+}
+
+.history-header {
+    padding-top: 2%;
+    font-size: 300%;
+    font-weight: bold;
+    color: #25282c; /* White color */
+}
+
+.history-description {
+    color: #25282c;
+    padding-top: 1%;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+}
+
+.timeline-container {
+    margin-left: 10%;
+}
+
+.timeline {
+    border-left: 1px solid #008B8B;
+    position: relative;
+    list-style: none;
+  }
+
+.timeline .timeline-item {
+    position: relative;
+}
+
+.timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .timeline-item:after {
+    background-color: #25282c;
+    left: -46px;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+}
+
+.terminating-point {
+    height: 0;
+}

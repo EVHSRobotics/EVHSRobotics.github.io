@@ -1,0 +1,33 @@
+li{
+    font-family:"Inter", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    font-optical-sizing: auto;
+}
+
+.container-md{
+    width:65vw;
+    margin:auto;
+}
+
+p{
+    text-align:center;
+}
+
+.img{
+    width:20vw;
+    border-radius: 15px;
+    border: 1px solid grey;
+}
+
+.list > li{
+    margin-top:3vh;
+}
+
+.list{
+    margin-top: auto;
+}
+
+h3, h2{
+    margin-top:5vh;
+}

@@ -1,0 +1,105 @@
+.footer-content {
+    display: flex;
+    align-items: center;
+    background-color: darkcyan;
+}
+
+.footer-content img {
+    max-height: 30vh;
+    max-width: 30vw;
+    object-fit: contain;
+}
+
+.footer-text {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-number {
+    font-size: 200%;
+    margin: 0;
+    color: white;
+    font-weight: 900;
+}
+
+.footer-title {
+    font-size: 200%;
+    margin: 0;
+    color: white;
+    font-weight: 900;
+}
+
+.footer-subtitle {
+    font-style: italic;
+    color: white;
+    margin: 0;
+}
+
+.footer-divider {
+    border-left: 1px solid white;
+    height: 25vh;
+    margin-left: 3%;
+    background-color: darkcyan;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 2%;
+}
+
+.footer-link {
+    padding-bottom: 7%;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+}
+.footer-link:hover {
+    transform: translateX(10%);
+    color: white;
+    text-decoration: none;
+    transition: transform, ease-in-out 0.2s;
+    -webkit-transition: transform, ease-in-out 0.2s;
+    -moz-transition: transform, ease-in-out 0.2s;
+    -ms-transition: transform, ease-in-out 0.2s;
+    -o-transition: transform, ease-in-out 0.2s;
+    -webkit-transform: translateX(10%);
+    -moz-transform: translateX(10%);
+    -ms-transform: translateX(10%);
+    -o-transform: translateX(10%);
+}
+
+.footer-link:not(:hover) {
+    transform: translateX(0);
+    transition: transform 0.3s ease;
+}
+
+.footer-contact {
+    margin-left: 2%;
+    margin-right: 4%;
+}
+
+.contact-heading {
+    color: white;
+    font-size: 200%;
+    font-weight: 900;
+}
+
+.placeholder-images {
+
+}
+
+.social-icon {
+    height: 6vh;
+    width: 6vh;
+    padding-right: 3%;
+}
+
+.website-curator {
+    font-size: 80%;
+    font-style: italic;
+    font-weight: 600;
+    color: white;
+    padding-top: 3%;
+}

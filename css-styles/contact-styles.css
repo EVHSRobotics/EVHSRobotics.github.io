@@ -1,0 +1,66 @@
+.logo-on-contact-navbar {
+    width: 6%;
+    padding-right: 1%;
+    padding-left:0%;
+}
+
+.contact-navbar {
+    /* background-color: gray; */
+    background-color: transparent;
+    opacity: 0.5;
+}
+
+.contact-us-header {
+    background-image: url('../media/collage-title.png');
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+  }
+
+
+  .contact-us-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 900%;
+    /* letter-spacing: 13px; */
+    font-weight: bolder;
+}
+
+  .contact-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+
+
+  .contact-navbar {
+    background-color: transparent;
+  }
+
+  .contact-us-header {
+    background-image: url('../media/collage-title.png');
+    color: white;
+    text-align: center;
+    /*padding: 50px 0;*/
+    position: relative;
+  }
+
+
+  .logo-on-contact-us {
+    width: 4%;
+    position: absolute;
+    top: 5%;
+    left: 1%;
+}
+
+label, input{
+  font-family:"Inter", sans-serif;
+  font-weight: 400;
+  font-style:normal;
+  font-optical-sizing: auto;
+}
+
+.bi{
+  font-size:2rem;
+  margin-left:2vw;
+}

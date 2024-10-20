@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+p{
+    font-family:"Inter", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    font-optical-sizing: auto;
+    line-height: 3em;
+}
+
+h2{
+    font-family: "Gajraj One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 4rem;
+    color:#2294a8;
+}
+
+h3{
+    text-align:center;
+    font-family: "Sofia Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size:3rem;
+    color:#2294a8;
+}
+
+.card-title{
+    font-family: "Sofia Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #2294a8;
+}
+
+.text-body-secondary{
+    color:rgba(33, 29, 25, 0.75);
+    text-align:center;
+}
+
+/* TITLE STYLES*/
+.title-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 9em;
+    letter-spacing: 0px;
+    font-weight: 900;
+    color: white;
+}
+
+.title-container {
+    background-image: url('../media/group-photo2.jpg');
+    background-color: white;
+    height: 93vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Add this line to stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+    padding: 0;
+    margin-bottom: 2%;
+}
+
+/* NAVBAR STYLES */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    align-self: center;
+    background-color: black;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    position: absolute;
+    align-self: center;
+    background-color: #fff;
+}
+
+.dropdown>.dropdown-toggle:active {
+      pointer-events:none;
+}
+
+
+.nav-link {
+    color: white;
+}
+
+.nav-item {
+    padding-left: 1%;
+    font-weight: bolder;
+    padding-right: 1%;
+    white-space: nowrap;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #008B8B;
+}
+
+.team-num-navbar {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.logo-on-navbar {
+    width: 7%;
+    padding-right: 1%;
+    padding-left:0%;
+}
+
+.logo-on-navbar:hover {
+    background-image: url('../media/old-logo-blue.png');
+    width:7%;
+    padding-right: 1%;
+    padding-left:0%;
+}
+
+/* FOOTER STYLES */
+.footer {
+    background-color: #faf0e6;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    margin-top: 0%;
+  }
+
+
+.ev-robotics-footer {
+    font-weight: bolder;
+    font-size: 90%;
+}
+
+.evhs-footer {
+
+    font-weight: bold;
+    font-size: 75%;
+    margin-bottom: 0;
+}
+
+.address-footer {
+
+    font-weight: bold;
+    font-size: 75%;
+    margin-bottom: 0;
+}
+
+.city-state-zip-footer {
+    font-weight: bolder;
+    font-size: 75%;
+
+}
+
+.email-footer {
+    font-weight: bolder;
+    font-size: 75%;
+    color: #008B8B;
+
+}
+
+
+/* FONTS */
+
+.gajraj-one-regular {
+    font-family: "Gajraj One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.sofia-sans {
+    font-family: "Sofia Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter{
+    font-family:"Inter", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    font-optical-sizing: auto;
+}

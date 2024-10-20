@@ -1,0 +1,67 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+    pointer-events: none;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-item {
+    padding-left: 1%;
+    font-weight: bold;
+    padding-right: 1%;
+    white-space: nowrap;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #008B8B;
+}
+
+.team-num-navbar {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.logo-on-navbar {
+    width: 7%;
+    padding-right: 1%;
+    padding-left: 0%;
+}
+
+
+.scrolled {
+    background-color: #404040;
+    transition: background-color, ease-in-out 0.3s;
+    -webkit-transition: background-color, ease-in-out 0.3s;
+    -moz-transition: background-color, ease-in-out 0.3s;
+    -ms-transition: background-color, ease-in-out 0.3s;
+    -o-transition: background-color, ease-in-out 0.3s;
+}
+
+
+.navbar:not(.scrolled) {
+    background-color: transparent;
+    transition: background-color, ease-in-out, 0.3s;
+    -webkit-transition: background-color, ease-in-out, 0.3s;
+    -moz-transition: background-color, ease-in-out, 0.3s;
+    -ms-transition: background-color, ease-in-out, 0.3s;
+    -o-transition: background-color, ease-in-out, 0.3s;
+}
